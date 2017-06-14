@@ -1,0 +1,14 @@
+{
+  "name": "Sample Native Extension",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "nativeMessaging",
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
